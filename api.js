@@ -1,7 +1,7 @@
 var studentId;
 
 const submitSolution = (() => {
-  const URL = "https://sda-solutions.herokuapp.com?";
+  const URL = "https://sda-solutions.herokuapp.com";
   const getStudentId = () => {
     studentId =
       studentId ?? localStorage.getItem("studentId") ?? `${Math.random()}`;
